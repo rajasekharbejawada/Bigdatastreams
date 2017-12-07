@@ -1,0 +1,11 @@
+applications:
+- host: iot-connected-car-sample
+  disk: 128M
+  name: iot-connected-car-sample
+  command: node app.js
+  path: .
+  domain: mybluemix.net
+  memory: 640M
+  instances: 1
+  env:
+     VEHICLE_COUNT: 3
